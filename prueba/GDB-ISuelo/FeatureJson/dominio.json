@@ -1,0 +1,304 @@
+{ 
+	"04_DC_Identifier" : [	
+					{
+						"FieldName" : "04_DC_Identifier",
+						"FieldDescription" : "Identifier",
+						"FieldDomainType" : "CODED",
+						"FieldType" : "SHORT",
+				  		"FieldCodedValues" : [
+				    		{	
+				    			"Code" : 41,
+				    			"Description" : "41 Topsoil"
+			    			},{
+				    			"Code" : 42,
+				    			"Description" : "42 Deep soil"
+			    			}
+				   		]
+				  	}
+				],
+	"04_DC_Color" : [	
+					{
+						"FieldName" : "04_DC_Color",
+						"FieldDescription" : "Color",
+						"FieldDomainType" : "CODED",
+						"FieldType" : "SHORT",
+				  		"FieldCodedValues" : [
+				    		{	
+				    			"Code" : 1,
+				    			"Description" : "1 Earth yellow"
+			    			},{
+				    			"Code" : 2,
+				    			"Description" : "2 Gray"
+			    			},{	
+				    			"Code" : 3,
+				    			"Description" : "3 Brow"
+			    			},{	
+				    			"Code" : 4,
+				    			"Description" : "4 Black"
+			    			},{	
+				    			"Code" : 5,
+				    			"Description" : "5 Red"
+			    			},{	
+				    			"Code" : 6,
+				    			"Description" : "6 Brick red"
+			    			},{	
+				    			"Code" : 7,
+				    			"Description" : "7 Greyish-green"
+			    			}
+				   		]
+				  	}
+				],
+	"04_DC_Pollution" : [	
+					{
+						"FieldName" : "04_DC_Pollution",
+						"FieldDescription" : "Pollution",
+						"FieldDomainType" : "CODED",
+						"FieldType" : "SHORT",
+				  		"FieldCodedValues" : [
+				    		{	
+				    			"Code" : 0,
+				    			"Description" : "0 None"
+			    			},{
+				    			"Code" : 1,
+				    			"Description" : "1 Little"
+			    			},{	
+				    			"Code" : 2,
+				    			"Description" : "2 Medium"
+			    			},{	
+				    			"Code" : 3,
+				    			"Description" : "3 Obvious pollution"
+			    			}
+				   		]
+				  	}
+				],
+	"04_DC_Erosion" : [	
+					{
+						"FieldName" : "04_DC_Erosion",
+						"FieldDescription" : "Erosion",
+						"FieldDomainType" : "CODED",
+						"FieldType" : "SHORT",
+				  		"FieldCodedValues" : [
+				    		{	
+				    			"Code" : 0,
+				    			"Description" : "0 None"
+			    			},{
+				    			"Code" : 1,
+				    			"Description" : "1 Little"
+			    			},{	
+				    			"Code" : 2,
+				    			"Description" : "2 Medium"
+			    			},{	
+				    			"Code" : 3,
+				    			"Description" : "3 Seriousness"
+			    			}
+				   		]
+				  	}
+				],
+	"04_DC_SaltMarsh" : [	
+					{
+						"FieldName" : "04_DC_SaltMarsh",
+						"FieldDescription" : "Salt Marsh",
+						"FieldDomainType" : "CODED",
+						"FieldType" : "SHORT",
+				  		"FieldCodedValues" : [
+				    		{	
+				    			"Code" : 0,
+				    			"Description" : "0 None"
+			    			},{
+				    			"Code" : 1,
+				    			"Description" : "1 Little"
+			    			},{	
+				    			"Code" : 2,
+				    			"Description" : "2 Medium"
+			    			},{	
+				    			"Code" : 3,
+				    			"Description" : "3 Seriousness"
+			    			}
+				   		]
+				  	}
+				],
+	"04_DC_Causes" : [	
+					{
+						"FieldName" : "04_DC_Causes",
+						"FieldDescription" : "Causes",
+						"FieldDomainType" : "CODED",
+						"FieldType" : "TEXT",
+				  		"FieldCodedValues" : [
+				    		{	
+				    			"Code" : "00",
+				    			"Description" : "00 Man-made deposit (only in urban area)"
+			    			},{	
+				    			"Code" : "01",
+				    			"Description" : "01 Residual deposit"
+			    			},{	
+				    			"Code" : "02",
+				    			"Description" : "02 Slope wash"
+			    			},{	
+				    			"Code" : "04",
+				    			"Description" : "04 Alluvial deposit"
+			    			},{	
+				    			"Code" : "05",
+				    			"Description" : "05 Ice-borne sediment"
+			    			},{	
+				    			"Code" : "06",
+				    			"Description" : "06 River & lake deposits"
+			    			},{	
+				    			"Code" : "07",
+				    			"Description" : "07 Karst deposit"
+			    			},{	
+				    			"Code" : "08",
+				    			"Description" : "08 Aeolian deposit"
+			    			},{	
+				    			"Code" : "09",
+				    			"Description" : "09 Diluvial deposit"
+			    			},{	
+				    			"Code" : "10",
+				    			"Description" : "10 Swamp deposit"
+			    			},{	
+				    			"Code" : "11",
+				    			"Description" : "11 Lacustrine deposit"
+			    			},{	
+				    			"Code" : "12",
+				    			"Description" : "12 Slope-alluvial deposit"
+			    			},{	
+				    			"Code" : "13",
+				    			"Description" : "13 Alluvial-diluvial content"
+			    			},{	
+				    			"Code" : "14",
+				    			"Description" : "14 Marine sediment"
+			    			},{	
+				    			"Code" : "15",
+				    			"Description" : "15 Diluvial-marine sediment"
+			    			}
+				   		]
+				  	}
+				],
+	"04_DC_LandApplication" : [	
+					{
+						"FieldName" : "04_DC_LandApplication",
+						"FieldDescription" : "Land Application",
+						"FieldDomainType" : "CODED",
+						"FieldType" : "TEXT",
+				  		"FieldCodedValues" : [
+				    		{	
+				    			"Code" : "011",
+				    			"Description" : "011 Paddy"
+			    			},{	
+				    			"Code" : "012",
+				    			"Description" : "012 Irrigated land"
+			    			},{	
+				    			"Code" : "013",
+				    			"Description" : "013 Is dryland"
+			    			},{	
+				    			"Code" : "021",
+				    			"Description" : "021 Is orchard"
+			    			},{	
+				    			"Code" : "022",
+				    			"Description" : "022 Is tea garden"
+			    			},{	
+				    			"Code" : "031",
+				    			"Description" : "031 Is forest land"
+			    			},{	
+				    			"Code" : "032",
+				    			"Description" : "032 Is shrubland"
+			    			},{	
+				    			"Code" : "033",
+				    			"Description" : "033 Is other shrubland"
+			    			},{	
+				    			"Code" : "041",
+				    			"Description" : "041 Is natural grassland"
+			    			},{	
+				    			"Code" : "042",
+				    			"Description" : "042 Is tame pasture"
+			    			},{	
+				    			"Code" : "043",
+				    			"Description" : "043 Is other grassland"
+			    			},{	
+				    			"Code" : "05",
+				    			"Description" : "05 Is commercial land"
+			    			},{	
+				    			"Code" : "061",
+				    			"Description" : "061 Is industrial land"
+			    			},{	
+				    			"Code" : "062",
+				    			"Description" : "062 Is mining lease"
+			    			},{	
+				    			"Code" : "063",
+				    			"Description" : "063 Is warehouse land"
+			    			},{	
+				    			"Code" : "071",
+				    			"Description" : "071 Is urban residential land"
+			    			},{	
+				    			"Code" : "072",
+				    			"Description" : "072 Is rural residential land"
+			    			},{	
+				    			"Code" : "08",
+				    			"Description" : "08 Is public management-services land"
+			    			},{	
+				    			"Code" : "09",
+				    			"Description" : "09 Is special land"
+			    			},{	
+				    			"Code" : "10",
+				    			"Description" : "10 Is traffic land"
+			    			},{	
+				    			"Code" : "11",
+				    			"Description" : "11 Is water facilities land"
+			    			},{	
+				    			"Code" : "121",
+				    			"Description" : "121 Is leisure area"
+			    			},{	
+				    			"Code" : "122",
+				    			"Description" : "122 Is agricultural land"
+			    			},{	
+				    			"Code" : "123",
+				    			"Description" : "123 Is terrace"
+			    			},{	
+				    			"Code" : "124",
+				    			"Description" : "124 is saline land"
+			    			},{	
+				    			"Code" : "125",
+				    			"Description" : "125 Is swamp"
+			    			},{	
+				    			"Code" : "126",
+				    			"Description" : "126 Is sandy land"
+			    			},{	
+				    			"Code" : "127",
+				    			"Description" : "127 Is bare area"
+			    			}
+				   		]
+				  	}
+				],				
+	"04_DC_Physiognomy" : [	
+					{
+						"FieldName" : "04_DC_Physiognomy",
+						"FieldDescription" : "Physiognomy",
+						"FieldDomainType" : "CODED",
+						"FieldType" : "SHORT",
+				  		"FieldCodedValues" :
+				   		[
+				    		{	
+				    			"Code" : 1,
+				    			"Description" : "1 Is hills"
+			    			},{
+				    			"Code" : 2,
+				    			"Description" : "2 Is mountainous"
+			    			},{	
+				    			"Code" : 3,
+				    			"Description" : "3 Is valley"
+			    			},{	
+				    			"Code" : 4,
+				    			"Description" : "4 Is basin"
+			    			},{	
+				    			"Code" : 5,
+				    			"Description" : "5 Is plain"
+			    			},{	
+				    			"Code" : 6,
+				    			"Description" : "6 Is downland"
+			    			},{	
+				    			"Code" : 7,
+				    			"Description" : "7 Is mud flat"
+			    			}
+				   		]
+				  	}
+				]
+}
