@@ -9,6 +9,10 @@ PATH_WORK = r'c:/data/Portland.gdb/streets'
 print arcpy.Exists(PATH_WORK)
 boolPath = arcpy.Exists(PATH_WORK)
 
+'''
+spatial_ref = arcpy.SpatialReference("Hawaii Albers Equal Area Conic")
+'''
+
 try:
     sr = arcpy.Describe("c:/data/Portland.gdb/streets").spatialReference
     print sr.name
