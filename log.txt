@@ -1,8 +1,0 @@
-12:22:32
-"c:/data/Portland.gdb/streets" does not exist
-12:22:47
-"c:/data/Portland.gdb/streets" does not exist
-12:23:33
-"c:/data/Portland.gdb/streets" does not exist
-12:24:48
-"c:/data/Portland.gdb/streets" does not exist
