@@ -3,13 +3,13 @@
 
 from config import base
 
-variableDefecto = base.Muestra(codigoEspectro='HolaMundo',sr=14)
+variableDefecto = base.Muestra(codigoEspectro='HolaMundo', sr=14)
 print(variableDefecto.getSpatialReference)
 
 print("Getter de codigoEspectro")
+
 # Muestra el atributo de codigoEspectro.
 print(variableDefecto.getCodigoEspectro)
-
 
 fision1, fision2 = variableDefecto.fision()
 print(fision1.getCodigoEspectro)
