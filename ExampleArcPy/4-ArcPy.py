@@ -16,6 +16,7 @@ try:
         for place in cursor:
             print ("{0} employs {1} people".format(place[0], place[1]))
             majorAttractionsLookup[place[0]] = place[1]
+
 except IOError as err:
     errorTime = time.strftime("%H:%M:%S")
     print "Error OS {0}".format(err)
