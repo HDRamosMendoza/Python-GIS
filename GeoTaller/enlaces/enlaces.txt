@@ -1,3 +1,0 @@
-http://desktop.arcgis.com/es/arcmap/latest/analyze/arcpy/what-is-arcpy-.htm
-http://www.mclibre.org/consultar/python/
-http://es.lipsum.com/

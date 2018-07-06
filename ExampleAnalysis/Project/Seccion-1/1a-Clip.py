@@ -6,7 +6,7 @@
 # Web		: HDRamosMendoza.github.io/Perfil-Profesional
 # Email		: heber.daniel.ramos.mendoza@gmail.com
 # Móvil		: 051 999130638
-# Originario: Perú - Lima 
+# Originario: Perú - Lima
 # NOTA: No es el mejor código que eh realizado. Es una simple demo de mis inicios de un par de años atras.
 import arcpy
 import os
