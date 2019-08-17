@@ -10,7 +10,7 @@ for f in files:
 	zfile.write("C:ArcpyBook/data/" + f)
 
 # La siguente linea es para que no se guarde la ruta en el .zip solo se guarde el expediente(file).
-#zipFile.write (os.path.join(arcpy.env.scratchFolder,file),file,compress_type = zipfile.ZIP_DEFLATED)
+# zipFile.write (os.path.join(arcpy.env.scratchFolder,f),f,compress_type = zipfile.ZIP_DEFLATED)
 
 # Lista los archivos comprimidos 
 for f in zfile.namelist():
