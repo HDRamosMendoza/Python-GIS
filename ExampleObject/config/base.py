@@ -36,16 +36,17 @@ class Muestra(object):
     @property
     def getCodigoEspectro(self):
         return self.codigoEspectro
-"""
+    
+    """
     @getCodigoEspectro.settter
     def getCodigoEspect(self, val):
         return self.codigoEspectro = val
-"""
+    """
 
-    #Getter
     @property
     def getSpatialReference(self):
         return self.spatialReference
+
     """
         @classmethod. Existe para recibir como primer argumento el 
         tipo(es decir, la clase) del objeto que ha llamado al metodo.
