@@ -1,0 +1,7 @@
+- Se tuvo problema en AAA de Ucayali. El app mapscrapy no soporto la dimención del polígono.
+	Se realizo por consulta al servicio para obtener el poligono restante. Se guardo en Backup\Apuntes_DATA AAA_Ucayali.json.
+	Despues se guardo una copia Automation/Apoyo_JSON/ para procesarlo.
+
+- Se tuvo problema en la descarga de ALA. Se descargo por departamento en la consulta en el servicio.
+	Se guardo en la carpeta backup. Despues de guardo una copia en Automation/Apoyo_JSON/LimiteDistrital 
+	para procesarlo. Se realiza el geoproceso de MERGE y guarda em la GDB que estamos trabajando.
