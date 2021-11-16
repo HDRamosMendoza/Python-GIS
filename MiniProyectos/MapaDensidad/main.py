@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 	Name App 	: Mapa de Densidad / Concentración / Calor
-	Description	: 
-	Created 	: Heber DANIEL Ramos Mendoza (HDRamosMendoza)
+	Description	: Siniestros de tránsito con participación de motocicletas en el Gran Santiago para el año 2016.
+	Created 	: Heber DANIEL Ramos Mendoza - HDRamosMendoza
 	Email		: heber.daniel.ramos.mendoza@gmail.com
 	Position 	: GIS Developer
 	Location 	: Perú/Lima/SanJuanDeLurigancho
